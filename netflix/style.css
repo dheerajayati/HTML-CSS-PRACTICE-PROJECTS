@@ -1,0 +1,434 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  font-size: 40px;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+/* CSS styling for section-1 */
+
+.section-1 {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/0f07b807-7be1-457d-be88-eb9153d5d4e9/8db04df8-caaf-4f19-8e51-9309664068b2/IN-en-20220815-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1349px;
+  height: 692px;
+  color: white;
+  z-index: -1;
+  border-bottom: 10px solid #222222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.netflix-logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: red;
+  font-size: 38px;
+
+  margin-left: 45px;
+  z-index: 1;
+}
+
+.header-actions {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 15px;
+  height: 100%;
+}
+
+.action-lang {
+  display: flex;
+  align-items: center;
+}
+
+.action-lang select {
+  background-color: transparent;
+  color: white;
+  padding: 0px 4px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  height: 35px;
+}
+
+.action-lang select:active {
+  border-color: white;
+  box-shadow: 3px;
+}
+
+.action-lang select option {
+  background-color: grey;
+}
+
+.action-signin {
+  display: flex;
+  align-items: center;
+}
+
+.action-signin button {
+  padding: 7px 17px;
+  font-size: 16px;
+  text-align: center;
+  height: 35px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-right: 45px;
+}
+
+.action-signin a {
+  text-decoration: none;
+  color: white;
+}
+
+.section1-title {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+  margin-top: 80px;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.section1-title-wrap {
+  display: grid;
+  align-items: center;
+  max-width: 664px;
+  padding: 80px 0px;
+  row-gap: 20px;
+}
+
+.section1-title h1 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  max-width: 640px;
+  text-align: center;
+  margin: 0px 140px;
+  z-index: 1;
+}
+
+.s1-title1 {
+  font-size: 26px;
+  width: 640px;
+  margin: 18px 140px;
+  text-align: center;
+  z-index: 1;
+}
+
+.s1-title2 {
+  font-size: 20px;
+  width: 750px;
+  text-align: center;
+  margin: 0px 120px;
+  z-index: 1;
+}
+
+.section-1 form {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 input {
+  width: 450px;
+  padding: 20px;
+  box-shadow: 5px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  margin-top: 20px;
+}
+
+.get-started-button {
+  background-color: red;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-shadow: 2px;
+  border: none;
+  width: 200px;
+  padding: 18px;
+  margin-top: 20px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
+}
+
+/* CSS styling for section-1 */
+
+.section-2 {
+  background-color: black;
+  width: 100%;
+  height: 480px;
+  border-bottom: 10px solid #222222;
+  color: white;
+  align-items: center;
+}
+
+.section2-title {
+  display: flex;
+  place-items: center;
+}
+
+.section2-title-wrap {
+  flex: 1;
+  margin: 0px 70px;
+}
+
+.section2-image {
+  flex: 2;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.section2-title-wrap h1 {
+  font-size: 50px;
+  width: 500px;
+  margin-bottom: 15px;
+}
+
+.section2-title-wrap p {
+  font-size: 26px;
+  width: 500px;
+}
+
+/* CSS styling for section-3 */
+
+.section-3 {
+  background-color: black;
+  width: 100%;
+  height: 480px;
+  border-bottom: 10px solid #222222;
+  color: white;
+  align-items: center;
+}
+
+.section3-title {
+  display: flex;
+  place-items: center;
+}
+
+.section3-title-wrap h1 {
+  font-size: 50px;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+
+.section3-title-wrap p {
+  font-size: 26px;
+  width: 530px;
+  margin-left: 100px;
+}
+
+.section3-image {
+  flex: 2;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+/* CSS styling for section-4 */
+
+.section-4 {
+  background-color: black;
+  width: 100%;
+  height: 480px;
+  border-bottom: 10px solid #222222;
+  color: white;
+  align-items: center;
+}
+
+.section4-title {
+  display: flex;
+  place-items: center;
+}
+
+.section4-title-wrap {
+  flex: 1;
+  margin-left: 120px;
+}
+
+.section4-image {
+  flex: 2;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+
+.section4-title-wrap h1 {
+  font-size: 50px;
+  width: 500px;
+  margin-bottom: 15px;
+}
+
+.section4-title-wrap p {
+  font-size: 26px;
+  width: 500px;
+}
+
+/* CSS styling for section-5 */
+
+.section-5 {
+  background-color: black;
+  width: 100%;
+  height: 480px;
+  border-bottom: 10px solid #222222;
+  color: white;
+  align-items: center;
+}
+
+.section5-title {
+  display: flex;
+  place-items: center;
+}
+
+.section5-image {
+  flex: 2;
+  margin-left: 120px;
+  margin-top: 25px;
+}
+
+.section5-title-wrap h1 {
+  font-size: 50px;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: 60px;
+}
+
+.section5-title-wrap p {
+  font-size: 26px;
+  width: 530px;
+  margin-left: 60px;
+}
+
+/* CSS styling for section-6 */
+
+.section-6 {
+  background-color: black;
+  width: 100%;
+  height: 950px;
+  border-bottom: 10px solid #222222;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+
+.section6-title-wrap {
+  display: grid;
+  place-content: center;
+}
+
+.section6-title h1 {
+  font-size: 50px;
+  width: 1200px;
+
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.faq-box {
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+  background-color: #303030;
+  padding: 27px 57px 20px 31px;
+  margin: 4px;
+}
+
+.faq-box p {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.section-6 form {
+  display: flex;
+  justify-content: center;
+}
+
+.section-6 input {
+  width: 450px;
+  padding: 20px;
+  box-shadow: 5px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  margin-top: 20px;
+}
+
+.s6-title6 {
+  font-size: 20px;
+  width: 750px;
+  text-align: center;
+  margin-left: 230px;
+  margin-top: 80px;
+}
+
+/* CSS styling for footer */
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 360px;
+  color: rgb(115, 115, 115);
+  margin-left: 250px;
+  margin-top: 80px;
+}
+
+.footer-link-list {
+  width: 800px;
+  display: flex;
+  column-gap: 80px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.link-list li {
+  margin-bottom: 15px;
+  list-style: none;
+  font-size: 14px;
+  color: rgb(115, 115, 115);
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(115, 115, 115);
+}
+
+.action-lang-footer select {
+  background-color: black;
+  color: rgb(115, 115, 115);
+  padding: 10px 4px 6px 18px;
+  font-size: 16px;
+  border-radius: 2px;
+  height: 50px;
+  width: 120px;
+  margin-top: 20px;
+  border-color: white;
+}
+
+.footer-title {
+  font-size: 14px;
+  margin-top: 25px;
+  width: 600px;
+}

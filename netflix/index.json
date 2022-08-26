@@ -1,0 +1,30 @@
+{
+  "body": {
+    "main": {
+      "section": {
+        "header": {
+          "div": "netflixlogo",
+          "div": {
+            "div": "english",
+            "div": "sign in"
+          }
+        },
+        "div": {
+          "div": {
+            "div": "unlimov",
+            "div": "watch",
+            "div": "ready",
+            "div": {
+              "div": {
+                "input": "text/email"
+              },
+              "div": {
+                "button": "getsatarted"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
